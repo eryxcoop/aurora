@@ -1,0 +1,48 @@
+// Pins
+#define DHT_PIN 14
+
+#define SD_CS_PIN 5
+
+#define ACCELEROMETER_X_PIN 32
+#define ACCELEROMETER_Y_PIN 33
+#define ACCELEROMETER_Z_PIN 25
+
+#define ONE_WIRE_PIN 26
+
+#define LORA_CS_PIN 16
+#define LORA_RESET_PIN 4
+#define LORA_IRQ_PIN 2
+#define LORA_SCK_PIN 0
+#define LORA_MISO_PIN 17
+#define LORA_MOSI_PIN 15
+#define LORA_FREQUENCY_IN_MHZ 433
+
+#define GPS_RX_PIN 35
+#define GPS_TX_PIN 34
+#define GPS_BAUD 9600
+
+#define STATE_INDICATOR_LEDS_PIN 27
+#define INICATOR_LEDS_COUNT 8
+#define BUZZER_PIN 13
+
+// Configuration
+#define CORE_0 0
+#define CORE_1 1
+
+#define ADC_SCALE 4096
+#define ADC_MAX_VOLTAGE 3.3
+#define SEA_LEVEL_PRESSURE_HPA (1016.8) // hPa pressure at sea level for your location and day!
+#define MAIN_QUEUE_MAX_SIZE 200
+#define TASKS_STACK_SIZE 4096
+
+// Running frequencies in ms
+#define LORA_INTERVAL 2000
+#define STATUS_INDICATOR_INTERVAL 1000
+#define GPS_INTERVAL 5
+#define ACC_INTERVAL 200
+#define BMP_INTERVAL 2000
+#define DHT_INTERVAL 1000
+#define ONEWIRE_INTERVAL 1500
+#define BROKER_INTERVAL 20
+#define BUZZER_INTERVAL 30000
+#define RESTARTER_INTERVAL 300000

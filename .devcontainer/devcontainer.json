@@ -1,0 +1,22 @@
+{
+    "name": "PlatformIO",
+    "dockerFile": "Dockerfile",
+    "remoteUser": "vscode",
+    "settings": {
+        // Use bash instead of shell
+        "terminal.integrated.shell.linux": "/bin/bash",
+        // Use fixed port for pio home
+        "platformio-ide.pioHomeServerHttpPort": 8008,
+        "platformio-ide.disablePIOHomeStartup": true
+    },
+    // Only install pio extension in container
+    "extensions": [
+        "platformio.platformio-ide"
+    ],
+    // This is needed to passtrough usb devices
+    "runArgs": [
+        "--privileged"
+    ],
+    // This port is used by pio home
+    "forwardPorts": [ 8008 ]
+}
