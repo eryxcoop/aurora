@@ -1,4 +1,9 @@
-![logo](https://user-images.githubusercontent.com/17937384/185706510-525fe578-95a3-4f89-b1db-05ce56358848.svg)
+![aurora-logo](https://user-images.githubusercontent.com/17937384/185707211-c0e16d5f-18ac-41dd-bc8c-cce3d9b7be51.png)
+
+<br />
+<br />
+<br />
+
 Código del proyecto Aurora al espacio. Basado en la libreria [eventy](https://github.com/eryxcoop/eventy).
 
 ## Links
